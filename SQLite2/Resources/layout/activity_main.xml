@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Toolbar
+        android:id="@+id/toolbar1"
+        android:logo="@drawable/rivetlogo"
+        android:layout_width="match_parent"
+        android:title="   Todo"
+        android:titleTextColor="#FF4500"
+        android:background="#29A0B1"
+        android:layout_height="wrap_content"
+    >
+        <ImageView
+            android:id="@+id/imgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:layout_gravity="right"
+            />
+    </Toolbar>
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
